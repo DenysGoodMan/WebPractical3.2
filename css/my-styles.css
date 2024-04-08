@@ -13,29 +13,21 @@ body{
     font-family: sans-serif;
     background-color: rgb(215, 219, 192);
 }
-.box_container{
-    display: inline-block;
-    max-width: 1195px;
-    min-width: 1195px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    border: 3px solid black;
-    box-shadow: 5px 5px 15px 2px;
-}
 .container{
-    display: inline-block;
-    max-width: 1150px;
-    min-width: 1150px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 45px;
     margin-bottom: 50px;
+    
 }
 ul,li{
     list-style: none;
     padding: 0;
 }
 .box {
-    width: 550px;
-    height: 340px;
+    flex: 0 1 35%;
+    word-wrap: break-word;
     font-size: 1rem;
     font-weight: bold; 
     text-align: auto;
@@ -45,7 +37,6 @@ ul,li{
     border-top: 2px solid red;
     border-left: 2px solid red;
     border-right: 1px solid red;
-    float: left;
 }
 .box:nth-child(2){
     border-right: 2px solid red;
